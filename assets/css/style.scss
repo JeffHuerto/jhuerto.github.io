@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+
+}
+a {
+    text-decoration: none;
+    padding: 2vw;
+}
+a:hover {
+    background-color: #79331c;
+}
+nav {
+    width: 100vw;
+    background-color: #1C7679;
+}
+ul {
+    margin: 0;
+    display: flex;
+}
