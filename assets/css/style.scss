@@ -1,18 +1,17 @@
 ---
 ---
 
-@import "cayman";
+@import "{{ site.theme }}";
 
 #navbar {
     list-style-type: none;
 }
 
 .navlinks {
-    float: left;
+    display: inline;
 }
 
 .navanchor {
     display: block;
     padding: 8px;
-    background-color: #dddddd;
 }
