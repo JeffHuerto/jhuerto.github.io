@@ -1,4 +1,4 @@
----
+/*---
 ---
 
 @import "{{ site.theme }}";
@@ -16,11 +16,9 @@ a {
 a:hover {
     background-color: #79331c;
 }
-nav {
-    width: 100vw;
-    background-color: #1C7679;
-}
+
 ul {
     margin: 0;
     display: flex;
 }
+*/
