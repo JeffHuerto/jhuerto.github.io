@@ -1,24 +1,20 @@
-/*---
+---
 ---
 
 @import "{{ site.theme }}";
 
-li {
+#navbar {
     list-style-type: none;
-    margin: 0 2vw;
-    font-size: 3vh;
-
-}
-a {
-    text-decoration: none;
-    padding: 2vw;
-}
-a:hover {
-    background-color: #79331c;
-}
-
-ul {
     margin: 0;
-    display: flex;
+    padding: 0;
 }
-*/
+
+#navlinks {
+    float: left;
+}
+
+#navanchor {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
