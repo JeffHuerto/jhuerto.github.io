@@ -1,0 +1,37 @@
+body {
+  background-color: burlywood;
+}
+
+.title {
+  text-align: center;
+  border-style: double;
+  border: 3px;
+  font-size: 2em;
+  color: darkblue;
+}
+
+p {
+  background-color: lightblue;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#startButton {
+  text-align: center;
+  line-height: 100%;
+  border: 0px;
+}
+
+#choiceSelect {
+  text-align: center;
+}
+
+#gameLog {
+  height: 15rem;
+  background-color: azure;
+  border-style: double;
+  border-color: aquamarine;
+  overflow: scroll;
+  line-height: 100%;
+}
