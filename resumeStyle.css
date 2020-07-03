@@ -1,0 +1,45 @@
+html   {
+  /*border: 1px solid lightcoral;*/
+  font-family: Helvetica, Arial, san-serif;
+  background-color: #EEEEEE;
+}
+
+.workSlot {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.workDesc {
+  grid-column: 1 / 3;
+}
+
+header {
+  background-image: linear-gradient(#3b87d3,#12508d);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  border-bottom: dashed;
+}
+
+.headInfo {
+  margin: auto;
+  width: 60%;
+}
+
+h2, h3 {
+  color: #002244;
+}
+
+h2 {
+  font-size: 2em;
+  border-bottom:solid;
+}
+
+h1, address, address a {
+  text-align: center;
+  color: white;
+  /*background-image: linear-gradient(#7abcff,#43a1ff);*/
+}
+
+
+
