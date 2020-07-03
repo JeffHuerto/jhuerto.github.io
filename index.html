@@ -1,68 +1,87 @@
----
-layout: default
----
 <!DOCTYPE html>
 <html>
-  <!-- <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Jeffrey Huerto - Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head> -->
-  <!-- Please note that private information has been omitted from this resume. Please contact if you would like my professional resume -->
-  <body>
-    <script src="script.js"></script>
-    <header>
-      <h1> Developer Resume</h1>
-      <p> Jeffrey Huerto </p>
-      <p> Email: <a href="mailto:jeffreyhuerto@gmail.com"> jeffreyhuerto@gmail.com</a></p>
-      <p><a href="https://github.com/jhuerto">GitHub Profile</p>
-    </header>
-    <nav id="navbar">
-      <h2> Navigation </h2>
-      <ul>
-      <li class="navlinks"><a class="navanchor" href="#AboutMe"> About Me </a></li>
-      <li class="navlinks"><a class="navanchor" href="#Resume"> Resume </a></li>
-      <li class="navlinks"><a class="navanchor" href="#Projects"> Projects </a></li>
-      <li class="navlinks"><a class="navanchor" href="rps.html"> ROCK PAPER SCISSORS </a></li>
-      <li class="navlinks"><a class="navanchor" href="JHResume.html">Resume Site </a></li>
-      </ul>
-    </nav>
-    <section>
-    <h2> Summary </h2>
-    <p> Thank you for visiting my Resume webpage. I am currently studying Computer Science at Los Angeles Pierce College, as an aspiring full-stack and applications developer. My previous studies were in CSU Northridge, where I graduated with a major of Health Administration. </p>
-    <p> I have spent the last 3-4 years working for small healthcare companies. While working at these companies, I saw that much of the software used to handle medical records and billing were severely outdated. These companies didn't have the extra capital to invest in a cutting-edge medical records software, or were simply intimidated by the use of new applications </p>
-    <p>I plan to create healthcare software that will greatly increase the effectiveness and efficiency of smaller companies, with little to no cost/overhead, and an easy to operate interface that anybody can follow. Hopefully this gives them an edge against larger companies. </p>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Jeffrey Huerto - Portfolio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap" rel="stylesheet">
+</head>
+<!-- Please note that private information has been omitted from this resume. Please contact if you would like my professional resume -->
+<body>
+	<script src="script.js">
+	</script>
+	<div class="column1">
+		<header class="headTitle">
+			<h1>Jeffrey Huerto</h1>
+			<p> Developer Portfolio </p>
+		</header>
+		<section class="contactInfo">
+			<p> - Jeffrey Huerto - </p>
+			<p> - Email: <a href="mailto:jeffreyhuerto@gmail.com"> jeffreyhuerto@gmail.com -</a></p>
+			<p><a href="https://github.com/jhuerto">- GitHub Profile -</a></p>
     </section>
-    <section>
-      <h2> Work Experience </h2>
-      <p> Enter Work Experience Here </p>
-    </section>
-    <section>
-      <h2> Educational Background </h2>
-      <p> Enter Educational Background Here </p>
-    </section>
-    <section>
-      <h2> Skills </h2>
-        <h3> Programming Languages </h3>
-          <ul>
-            <li> Visual Basic (.NET) </li>
-            <li> C# </li>
-            <li> Front-End Stack (HTML,CSS,JavaScript)</li>
-            <li> Node.js Backend </li>
-            <li> T-SQL </li>
-          </ul>
-        <h3> Software </h3>
-          <ul>
-            <li> Microsoft Excel </li>
-            <ul> 
-              <li> Knowledge of advanced functions (VLOOKUP, IF/OR) </li>
-              <li> Data analysis tools (Chart creation, What-if analysis, goal seek)
-              <li> Knowledge of Macros (Mostly Macro Recorder) </li>
-            </ul>
-            <li> Microsoft Access </li>
-            <li> Micorsoft SQL Server </li>
-            <li> EHR Sytems: MatrixCare EHR </li>
-            <li> Billing Software: Medisoft and AAPC Coder </li>
-  </body>
+    <section id="aboutMe">
+			<p> Thank you for visiting my Resume webpage. I am currently studying Computer Science at Los Angeles Pierce College,
+				as an aspiring full-stack and applications developer. My previous studies were in CSU Northridge, where I graduated with
+				a major of Health Administration. </p>
+			<p> I have spent the last 3-4 years working for small healthcare companies. While working at these companies, I saw that
+				much of the software used to handle medical records and billing were severely outdated. These companies didn't have the
+				extra capital to invest in a cutting-edge medical records software, or were simply intimidated by the use of new applications
+			</p>
+			<p>I plan to create healthcare software that will greatly increase the effectiveness and efficiency of smaller companies,
+				with little to no cost/overhead, and an easy to operate interface that anybody can follow. Hopefully this gives them
+				an edge against larger companies. </p>
+		</section>
+	</div>
+	<div class="column2">
+		<nav id="navbar">
+			<h2 class="headingDecor"> Navigation </h2>
+			<ul>
+				<!--<li class="navlinks"><a class="navanchor" href="#AboutMe"> About Me </a></li> -->
+				<li class="navlinks"><a class="navanchor" href="JHResume.html"> Resume </a></li>
+				<!-- <li class="navlinks"><a class="navanchor" href="#Projects"> Projects </a></li> -->
+				<li class="navlinks"><a class="navanchor" href="rps.html"> Project - Rock Paper Scissors </a></li>
+			</ul>
+		</nav>
+    <section id="skillBox">
+		<h2> Skills </h2>
+		<h3> Programming Languages </h3>
+		<ul>
+			<li> Visual Basic (.NET) </li>
+			<li> C++ </li>
+			<li> Front-End Stack (HTML,CSS,JavaScript)</li>
+			<li> Node.js Backend </li>
+			<li> T-SQL </li>
+		</ul>
+		<h3> Software </h3>
+		<ul>
+			<li> Microsoft Excel </li>
+			<ul>
+				<li> Knowledge of advanced functions (VLOOKUP, IF/OR) </li>
+				<li> Data analysis tools (Chart creation, What-if analysis, goal seek)
+					<li> Knowledge of Macros (Mostly Macro Recorder) </li>
+			</ul>
+			<li> Microsoft Access </li>
+			<li> Micorsoft SQL Server </li>
+			<li> EHR Sytems: MatrixCare EHR </li>
+			<li> Billing Software: Medisoft and AAPC Coder </li>
+	</section>
+	</div>
+	<!--
+	<div class="expBox">
+		<section>
+			<h2> Work Experience </h2>
+			<article id="workLocation"></article>
+			<p> Enter Work Experience Here </p>
+		</section>
+		<section>
+			<h2> Educational Background </h2>
+			<article id="schoolLocation"></article>
+			<p> Enter Educational Background Here </p>
+		</section>
+	</div>
+  -->
+</body>
 </html>
